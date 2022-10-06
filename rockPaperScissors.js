@@ -29,7 +29,21 @@ function rockPaperScissors(playerTurn) {
     }
     console.log(`The computer chooses ${npcTurn}`);
 
-   
+    // Game logic - variations definition
+    if ((playerTurn == rock && npcTurn == scissors) ||
+        (playerTurn == paper && npcTurn == rock) ||
+        (playerTurn == scissors && npcTurn == paper)) {
+        console.log("You win!");
+    } else if ((playerTurn == rock && npcTurn == rock) ||
+        (playerTurn == paper && npcTurn == paper) ||
+        (playerTurn == scissors && npcTurn == scissors)) {
+        console.log("Draw.");
+    } else if ((playerTurn == rock && npcTurn == paper) ||
+        (playerTurn == paper && npcTurn == scissors) ||
+        (playerTurn == scissors && npcTurn == rock)) {
+        console.log("You lose.");
+    }
+
     
 
 
