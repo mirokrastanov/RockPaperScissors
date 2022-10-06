@@ -1,9 +1,8 @@
 # Ignore - custom
 .zip
 .iml
-.dat
 /_submission
 
 
-#
+# Other
 *.dat
