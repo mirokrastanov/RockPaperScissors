@@ -37,11 +37,11 @@ function rockPaperScissors(playerTurn) {
     } else if ((playerTurn == rock && npcTurn == rock) ||
         (playerTurn == paper && npcTurn == paper) ||
         (playerTurn == scissors && npcTurn == scissors)) {
-        console.log("Draw.");
+        console.log("This game was a draw!");
     } else if ((playerTurn == rock && npcTurn == paper) ||
         (playerTurn == paper && npcTurn == scissors) ||
         (playerTurn == scissors && npcTurn == rock)) {
-        console.log("You lose.");
+        console.log("You lose!");
     }
 
     
