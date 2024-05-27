@@ -2,6 +2,8 @@
 A simple console-based JavaScript implementation of the "Rock - Paper - Scissors" game.
 <p align="center"><a href="https://replit.com/@mirokrastanov/RockPaperScissors-JS?v=1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/1200px-Rock-paper-scissors.svg.png" alt="game-image" height="500px"></a></p>
 
+## App Demo is now part of the app library
+
 ## Description
 <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors">Rock - Paper - Scissors</a> is a simple <b>two player game<b>, where you and your opponent (the computer) simultaneously choose one of the following three options: <b>"rock", "paper" or "scissors". The rules are as follows:
   - <b>Rock beats scissors</b> (the scissors get broken by the rock)
